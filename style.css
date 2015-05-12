@@ -17,42 +17,13 @@ header{
     background-size: cover;
 }
 
-nav{
-    height: 40px;
-}
-
-nav ul{
-    float: right;
-    list-style-type: none;
-}
-
-nav ul li{
-    float: left;
-}
-
-nav ul li a{
-    color: white;
-    padding: 25px 15px;
-    height: 40px;
-    line-height: 40px;
-    text-decoration: none;
-    font-size: 1.5em;
-    text-transform: uppercase;
-}
-
-nav ul li a:hover{
-    background-color: coral;
-    line-height: 80px;
-    transition: line-height 0.3s ease;
-}
-
 header h1{
     width: 100%;
     color: white;
     font-size: 3em;
-    margin: 1em auto 0 auto;
     text-align: center;
     font-weight: 100;
+    padding-top: 1.2em;
 }
 
 header h2{
@@ -91,8 +62,8 @@ section h1{
 #about p{
     line-height: 30px;
     font-weight: 400;
-    width: 70%;
     margin: 0 auto 0 auto;
+    width: 70%;
 }
 
 #work{
